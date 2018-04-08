@@ -1,0 +1,7 @@
+2017 Nov 25 Sat 21:53:34 INFO ==============
+2017 Nov 25 Sat 21:53:34 INFO 接口名：service
+2017 Nov 25 Sat 21:54:14 INFO 参数：a=jjj
+2017 Nov 25 Sat 21:54:35 INFO 响应异常：HTTPConnectionPool(host='192.168.1.8', port=6080): Max retries exceeded with url: /service?service=service&buildVersion=100&orderNo=aWkYpANqDhhILwQjs2gEg0&device=Python&partnerId=20170315123001000001&deviceId=Python34&system=python&a=jjj&systemVersion=3.4&sign=eeea516676aa97eaac3694aff6754a0c (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x02ADDE90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+2017 Nov 25 Sat 21:54:35 INFO ==============
+2017 Nov 25 Sat 21:54:35 INFO ==============
+2017 Nov 25 Sat 21:54:35 INFO 接口名：b=aaa

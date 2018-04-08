@@ -1,0 +1,5 @@
+2017 Mar 30 Thu 16:49:12 INFO ==============
+2017 Mar 30 Thu 16:49:12 INFO 接口名：userResetPwd
+2017 Mar 30 Thu 16:50:00 INFO 参数：userId=a001;realname=张三;idcard=100001;pwdType=0
+2017 Mar 30 Thu 16:50:00 INFO 相应报文：(200, {'detailMessage': '重置密码成功', 'message': '重置密码成功', 'code': '00x000000', 'datas': {'newPwd': '322202'}, 'orderNo': 'RMNPuM0Zh9ZB5xAjkqri4c', 'status': 'success'})
+2017 Mar 30 Thu 16:50:00 INFO ==============

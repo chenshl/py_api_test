@@ -1,0 +1,138 @@
+2017 Mar 23 Thu 10:57:34 INFO ==============
+2017 Mar 23 Thu 10:57:34 INFO 接口名：clearErrorCount
+2017 Mar 23 Thu 10:57:37 INFO 参数：userId=a002;errCount=0
+2017 Mar 23 Thu 10:57:38 INFO 相应报文：(200, {'detailMessage': '获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserDealpwdErrorApi. No provider available for the service /com.jvv.customer.facade.user.api.UserDealpwdErrorApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserDealpwdErrorApi&methods=clearErrorCount&organization=jvv&owner=turalyon&pid=16522&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1490250658840&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'message': '内部错误', 'code': '500', 'orderNo': 'mtnwuBEnDF0WTuNFpvMYWv', 'datas': {}, 'status': 'fail'})
+2017 Mar 23 Thu 10:57:38 INFO ==============
+2017 Mar 23 Thu 11:56:20 INFO ==============
+2017 Mar 23 Thu 11:56:20 INFO 接口名：createParam
+2017 Mar 23 Thu 11:56:51 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime= ;creator= ;updater= ;updatetime= 
+2017 Mar 23 Thu 11:56:51 INFO 相应报文：(200, {'message': '参数格式错误', 'datas': {}, 'status': 'fail', 'code': '408', 'detailMessage': '参数updatetime= ,格式错误,需要的:Date', 'orderNo': '8OcGZBnlIrfi1zBWPAXDdq'})
+2017 Mar 23 Thu 11:56:51 INFO ==============
+2017 Mar 23 Thu 11:57:00 INFO ==============
+2017 Mar 23 Thu 11:57:00 INFO 接口名：createParam
+2017 Mar 23 Thu 11:57:17 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime=2017 ;creator=11 ;updater=22 ;updatetime=2017
+2017 Mar 23 Thu 11:57:17 INFO 相应报文：(200, {'message': '参数格式错误', 'datas': {}, 'status': 'fail', 'code': '408', 'detailMessage': '参数updatetime=2017,格式错误,需要的:Date', 'orderNo': '2L38KS6z1zp1odprtsMT9A'})
+2017 Mar 23 Thu 11:57:17 INFO ==============
+2017 Mar 23 Thu 13:40:49 INFO ==============
+2017 Mar 23 Thu 13:40:49 INFO 接口名：createParam
+2017 Mar 23 Thu 13:40:55 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime=2016 ;creator=11 ;updater=22 ;updatetime=2017
+2017 Mar 23 Thu 13:40:55 INFO 相应报文：(200, {'message': '参数格式错误', 'datas': {}, 'status': 'fail', 'code': '408', 'detailMessage': '参数updatetime=2017,格式错误,需要的:Date', 'orderNo': 'MmwNbLehtaBjG5fh0GDXNv'})
+2017 Mar 23 Thu 13:40:55 INFO ==============
+2017 Mar 23 Thu 13:41:03 INFO ==============
+2017 Mar 23 Thu 13:41:03 INFO 接口名：createParam
+2017 Mar 23 Thu 13:41:23 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime=2017-2-1 ;creator=11 ;updater=22 ;updatetime=2017-3-1
+2017 Mar 23 Thu 13:41:23 INFO 相应报文：(200, {'message': '参数格式错误', 'datas': {}, 'status': 'fail', 'code': '408', 'detailMessage': '参数updatetime=2017-3-1,格式错误,需要的:Date', 'orderNo': 'YUHgJv9lpMyPJ1PK30qIWL'})
+2017 Mar 23 Thu 13:41:23 INFO ==============
+2017 Mar 23 Thu 13:43:07 INFO ==============
+2017 Mar 23 Thu 13:43:07 INFO 接口名：clearErrorCount
+2017 Mar 23 Thu 13:43:43 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime=2017-03-08 14:42:02;creator=11 ;updater=22 ;updatetime=2017-03-08 14:42:02
+2017 Mar 23 Thu 13:43:43 INFO 相应报文：(200, {'orderNo': '72XCKsRrPeikfYuwznqWSY', 'datas': {}, 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'detailMessage': 'errCount:may not be null;userId:may not be null;'})
+2017 Mar 23 Thu 13:43:43 INFO ==============
+2017 Mar 23 Thu 13:44:24 INFO ==============
+2017 Mar 23 Thu 13:44:24 INFO 接口名：clearErrorCount
+2017 Mar 23 Thu 13:44:36 INFO 参数：code=hobby;name=兴趣;paramKey=h_01;paramValue=bike;isUse=0;createtime=2017-03-08 14:42:02;creator=11;updater=22;updatetime=2017-03-08 14:42:02
+2017 Mar 23 Thu 13:44:36 INFO 相应报文：(200, {'orderNo': '0iA1W1IwIOLg6aJgrYskLl', 'datas': {}, 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'detailMessage': 'errCount:may not be null;userId:may not be null;'})
+2017 Mar 23 Thu 13:44:36 INFO ==============
+2017 Mar 23 Thu 13:54:50 INFO ==============
+2017 Mar 23 Thu 13:54:50 INFO 接口名：findUserParamByID
+2017 Mar 23 Thu 13:54:54 INFO 参数：id=1
+2017 Mar 23 Thu 13:54:54 INFO 相应报文：(200, {'orderNo': '8pYjFoQqNTJTnAG5nAhugG', 'datas': {}, 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'detailMessage': 'code:may not be empty;'})
+2017 Mar 23 Thu 13:54:54 INFO ==============
+2017 Mar 23 Thu 13:54:58 INFO ==============
+2017 Mar 23 Thu 13:54:58 INFO 接口名：findUserParamByID
+2017 Mar 23 Thu 13:55:01 INFO 参数：id= 
+2017 Mar 23 Thu 13:55:01 INFO 相应报文：(200, {'orderNo': '3Dc2eDrUJSeegFLXob1RiE', 'datas': {}, 'message': '参数格式错误', 'code': '408', 'status': 'fail', 'detailMessage': '参数id= ,格式错误,需要的:Long'})
+2017 Mar 23 Thu 13:55:01 INFO ==============
+2017 Mar 23 Thu 13:55:05 INFO ==============
+2017 Mar 23 Thu 13:55:05 INFO 接口名：findUserParamByID
+2017 Mar 23 Thu 13:55:10 INFO 参数：id=a001
+2017 Mar 23 Thu 13:55:10 INFO 相应报文：(200, {'orderNo': '7mFpICSS6144DDOPAHMgnw', 'datas': {}, 'message': '参数格式错误', 'code': '408', 'status': 'fail', 'detailMessage': '参数id=a001,格式错误,需要的:Long'})
+2017 Mar 23 Thu 13:55:10 INFO ==============
+2017 Mar 23 Thu 14:05:04 INFO ==============
+2017 Mar 23 Thu 14:05:04 INFO 接口名：queryUserLoginLogsService
+2017 Mar 23 Thu 14:05:22 INFO 参数：userId=a001;start=0;pageSize=10
+2017 Mar 23 Thu 14:05:23 INFO 相应报文：(200, {'orderNo': 'OqXvbShr3xGVI6FGK1bQEo', 'status': 'fail', 'message': '内部错误', 'detailMessage': '获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserLoginInfoApi. No provider available for the service /com.jvv.customer.facade.user.api.UserLoginInfoApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserLoginInfoApi&methods=queryUserLoginLogs,commitUserLoginLog&organization=jvv&owner=turalyon&pid=16522&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1490261923749&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'code': '500'})
+2017 Mar 23 Thu 14:05:23 INFO ==============
+2017 Mar 23 Thu 14:06:37 INFO ==============
+2017 Mar 23 Thu 14:06:37 INFO 接口名：loginAndRegist
+2017 Mar 23 Thu 14:06:57 INFO 参数：userPhone=18375693021
+2017 Mar 23 Thu 14:06:57 INFO 相应报文：(200, {'orderNo': 'jxVVSBxyBo7vDlDWYSS6Og', 'status': 'fail', 'message': '内部错误', 'detailMessage': '获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserLoginAndRegistApi. No provider available for the service /com.jvv.customer.facade.user.api.UserLoginAndRegistApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserLoginAndRegistApi&methods=loginByPassword,loginOrRegister,registeredUser&organization=jvv&owner=turalyon&pid=16522&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1490262017777&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'code': '500'})
+2017 Mar 23 Thu 14:06:57 INFO ==============
+2017 Mar 23 Thu 14:08:09 INFO ==============
+2017 Mar 23 Thu 14:08:09 INFO 接口名：loginAndRegist
+2017 Mar 23 Thu 14:08:30 INFO 参数：userPhone=18375693021;recommendId=a004
+2017 Mar 23 Thu 14:08:31 INFO 相应报文：(200, {'orderNo': 'A1zRwIyTaIszPLypkOCDwB', 'status': 'fail', 'message': '内部错误', 'detailMessage': '获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserLoginAndRegistApi. No provider available for the service /com.jvv.customer.facade.user.api.UserLoginAndRegistApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserLoginAndRegistApi&methods=loginByPassword,loginOrRegister,registeredUser&organization=jvv&owner=turalyon&pid=16522&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1490262111708&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'code': '500'})
+2017 Mar 23 Thu 14:08:31 INFO ==============
+2017 Mar 23 Thu 14:40:05 INFO ==============
+2017 Mar 23 Thu 14:40:05 INFO 接口名：loginByPassword
+2017 Mar 23 Thu 14:40:54 INFO 参数：userPhone=15223313143;password=123456
+2017 Mar 23 Thu 14:40:54 INFO 相应报文：(200, {'orderNo': 'RGgU83z0L1MDxheUspl7h1', 'status': 'fail', 'message': '内部错误', 'detailMessage': '获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserLoginAndRegistApi. No provider available for the service /com.jvv.customer.facade.user.api.UserLoginAndRegistApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserLoginAndRegistApi&methods=loginByPassword,loginOrRegister,registeredUser&organization=jvv&owner=turalyon&pid=3807&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1490264054955&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'code': '500'})
+2017 Mar 23 Thu 14:40:54 INFO ==============
+2017 Mar 23 Thu 14:42:50 INFO ==============
+2017 Mar 23 Thu 14:42:50 INFO 接口名：createParam
+2017 Mar 23 Thu 14:43:53 INFO 参数：code=hobby;name=兴趣;paramKey= ;paramValue= ;isUse=1
+2017 Mar 23 Thu 14:43:54 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '系统异常:paramValue=:参数值不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;', 'orderNo': 'K0nA49LunlcaAxQeluiDsp', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:43:54 INFO ==============
+2017 Mar 23 Thu 14:44:52 INFO ==============
+2017 Mar 23 Thu 14:44:52 INFO 接口名：createParam
+2017 Mar 23 Thu 14:45:30 INFO 参数：code=hobby;name=兴趣;paramKey= ;paramValue= ;isUse=1;createtime=2017-03-02 14:02;creator=aa;updater=bb
+2017 Mar 23 Thu 14:45:30 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '参数createtime=2017-03-02 14:02,格式错误,需要的:Date', 'message': '参数格式错误', 'orderNo': 'pwnWTvOOwFjk27l9pHxtQk', 'datas': {}, 'code': '408'})
+2017 Mar 23 Thu 14:45:30 INFO ==============
+2017 Mar 23 Thu 14:46:08 INFO ==============
+2017 Mar 23 Thu 14:46:08 INFO 接口名：createParam
+2017 Mar 23 Thu 14:46:22 INFO 参数：code=hobby;name=兴趣;paramKey= ;paramValue= ;isUse=1;createtime=2017-03-02 14:02:27;creator=aa;updater=bb
+2017 Mar 23 Thu 14:46:22 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '系统异常:paramValue=:参数值不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;', 'orderNo': 'sgyyWCgAiCz23eL9Nn3k1O', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:46:22 INFO ==============
+2017 Mar 23 Thu 14:46:38 INFO ==============
+2017 Mar 23 Thu 14:46:38 INFO 接口名：createParam
+2017 Mar 23 Thu 14:47:35 INFO 参数：code=hobby;name=兴趣;paramKey=兴趣1;paramValue=h_02;isUse=0;createtime=2017-03-02 14:02:27;creator=aa;updater=bb;updatetime=2017-03-12 14:02:27
+2017 Mar 23 Thu 14:47:35 INFO 相应报文：(200, {'status': 'success', 'detailMessage': '新增兴趣成功', 'message': '新增兴趣成功', 'orderNo': 'bAC6aKT7Fvs4WmKx5XXKMP', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:47:35 INFO ==============
+2017 Mar 23 Thu 14:48:11 INFO ==============
+2017 Mar 23 Thu 14:48:11 INFO 接口名：createParam
+2017 Mar 23 Thu 14:49:25 INFO 参数：code=hobby;paramKey=兴趣1;paramValue= ;isUse=1;createtime=2017-03-02 14:02:57;updatetime=2017-03-12 14:03:27
+2017 Mar 23 Thu 14:49:25 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '系统异常:paramValue=:参数值不能为空;name=:参数名称不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;name=:参数名称不能为空;', 'orderNo': 'a2wzQ8Iy7q4p2RkSHJ1kkA', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:49:25 INFO ==============
+2017 Mar 23 Thu 14:50:05 INFO ==============
+2017 Mar 23 Thu 14:50:05 INFO 接口名：createParam
+2017 Mar 23 Thu 14:52:01 INFO 参数：code=hobby;paramKey= ;paramValue=h_01;isUse=1;creator=aa;updater=bb
+2017 Mar 23 Thu 14:52:02 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '系统异常:name=:参数名称不能为空;', 'message': '系统异常:name=:参数名称不能为空;', 'orderNo': '7H79aALgI98V2EikoCE86x', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:52:02 INFO ==============
+2017 Mar 23 Thu 14:54:20 INFO ==============
+2017 Mar 23 Thu 14:54:20 INFO 接口名：createParam
+2017 Mar 23 Thu 14:55:12 INFO 参数：code=hobby;paramKey= ;paramValue= ;isUse=0;updater=bb
+2017 Mar 23 Thu 14:55:12 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '系统异常:paramValue=:参数值不能为空;name=:参数名称不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;name=:参数名称不能为空;', 'orderNo': 'XgKEc5gfyalpxOYtzyxzly', 'datas': {}, 'code': '200'})
+2017 Mar 23 Thu 14:55:12 INFO ==============
+2017 Mar 23 Thu 14:57:13 INFO ==============
+2017 Mar 23 Thu 14:57:13 INFO 接口名：createParam
+2017 Mar 23 Thu 14:57:43 INFO 参数：code= ;name=兴趣;
+2017 Mar 23 Thu 14:57:49 INFO ==============
+2017 Mar 23 Thu 14:57:49 INFO 接口名：createParam
+2017 Mar 23 Thu 14:58:44 INFO 参数：code= ;name=兴趣;paramKey= ;paramValue= ;isUse=0;createtime=2017-03-02 14:02:57;updatetime=2017-03-12 14:03:27
+2017 Mar 23 Thu 14:58:45 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '系统异常:paramValue=:参数值不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;', 'code': '200', 'orderNo': '2RqR2kzxrbjiPP3DRzBuhg', 'status': 'fail'})
+2017 Mar 23 Thu 14:58:45 INFO ==============
+2017 Mar 23 Thu 15:11:38 INFO ==============
+2017 Mar 23 Thu 15:11:38 INFO 接口名：createParam
+2017 Mar 23 Thu 15:12:51 INFO 参数：code= ;name=兴趣;paramKey= ;paramValue=bike;isUse=1;updater=b;updatetime=2017-03-12 14:03:27
+2017 Mar 23 Thu 15:12:51 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '新增兴趣成功', 'message': '新增兴趣成功', 'code': '200', 'orderNo': 'YgqwIANQbLiK3cZnXwK7my', 'status': 'success'})
+2017 Mar 23 Thu 15:12:51 INFO ==============
+2017 Mar 23 Thu 15:22:03 INFO ==============
+2017 Mar 23 Thu 15:22:03 INFO 接口名：createParam
+2017 Mar 23 Thu 15:22:57 INFO 参数：code= ;name=兴趣;paramKey=H_03;paramValue= ;isUse=1;creator=22
+2017 Mar 23 Thu 15:22:57 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '系统异常:paramValue=:参数值不能为空;', 'message': '系统异常:paramValue=:参数值不能为空;', 'code': '200', 'orderNo': '1xgA3UDhuSgqZCU8RNauuY', 'status': 'fail'})
+2017 Mar 23 Thu 15:22:57 INFO ==============
+2017 Mar 23 Thu 15:23:28 INFO ==============
+2017 Mar 23 Thu 15:23:28 INFO 接口名：createParam
+2017 Mar 23 Thu 15:24:20 INFO 参数：code= ;paramKey= ;paramValue=bike1;isUse=0;createtime=2017-03-08 14:42:02;creator=11
+2017 Mar 23 Thu 15:24:21 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '系统异常:name=:参数名称不能为空;', 'message': '系统异常:name=:参数名称不能为空;', 'code': '200', 'orderNo': '4R3IwvEuJAc9jLwVBrKHOg', 'status': 'fail'})
+2017 Mar 23 Thu 15:24:21 INFO ==============
+2017 Mar 23 Thu 15:24:41 INFO ==============
+2017 Mar 23 Thu 15:24:41 INFO 接口名：createParam
+2017 Mar 23 Thu 15:25:30 INFO 参数：code= ;paramKey= ;paramValue=bike;isUse=0;creator=11;updater=22;updatetime=2017-03-08 14:42:02
+2017 Mar 23 Thu 15:25:31 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '系统异常:name=:参数名称不能为空;', 'message': '系统异常:name=:参数名称不能为空;', 'code': '200', 'orderNo': 'KRhzzVS32LSyGFhQR19dSL', 'status': 'fail'})
+2017 Mar 23 Thu 15:25:31 INFO ==============
+2017 Mar 23 Thu 15:25:41 INFO ==============
+2017 Mar 23 Thu 15:25:41 INFO 接口名：createParam
+2017 Mar 23 Thu 15:26:40 INFO 参数：code= ;paramKey=H_03;paramValue=bike;isUse=1;createtime=2017-03-08 14:42:02;updater=22
+2017 Mar 23 Thu 15:26:40 INFO 相应报文：(200, {'datas': {}, 'detailMessage': '系统异常:name=:参数名称不能为空;', 'message': '系统异常:name=:参数名称不能为空;', 'code': '200', 'orderNo': '86IwHmQPm4pBgfmx8zerbs', 'status': 'fail'})
+2017 Mar 23 Thu 15:26:40 INFO ==============

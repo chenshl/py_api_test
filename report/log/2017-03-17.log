@@ -1,0 +1,25 @@
+2017 Mar 17 Fri 16:00:37 INFO ==============
+2017 Mar 17 Fri 16:00:37 INFO 接口名：thirdBinding
+2017 Mar 17 Fri 16:01:45 INFO 参数：userPhone=18375693021,thirdType=QQ,openid=12
+2017 Mar 17 Fri 16:01:46 INFO 响应报文：{'code': '500', 'detailMessage': 'java.lang.RuntimeException: 获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.UserThirdBindingApi. No provider available for the service /com.jvv.customer.facade.user.api.UserThirdBindingApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=openapi&check=false&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.UserThirdBindingApi&methods=removeThirdBinding,bingding,query,findByUserid,thirdLogin&organization=jvv&owner=turalyon&pid=26036&revision=1.0.0-SNAPSHOT&side=consumer&timeout=3000&timestamp=1489737696458&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'status': 'fail', 'message': '内部错误', 'orderNo': 'Hw3K8GGaIRLowtgvvEBfUa'}
+2017 Mar 17 Fri 16:01:46 INFO ==============
+2017 Mar 17 Fri 16:15:57 INFO ==============
+2017 Mar 17 Fri 16:15:57 INFO 接口名：freezeAccount
+2017 Mar 17 Fri 16:18:08 INFO 参数：id=3,userId=a002,frozenState=1
+2017 Mar 17 Fri 16:18:08 INFO 响应报文：{'code': '500', 'detailMessage': 'java.lang.RuntimeException: 获取dubbo服务失败:Failed to check the status of the service com.jvv.customer.facade.user.api.FreezeAccountApi. No provider available for the service com.jvv.customer.facade.user.api.FreezeAccountApi:1.0 from the url zookeeper://192.168.1.8:2181/com.alibaba.dubbo.registry.RegistryService?application=openapi&dubbo=2.5.3&interface=com.jvv.customer.facade.user.api.FreezeAccountApi&methods=updateAccountState&organization=jvv&owner=turalyon&pid=26036&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1489738679020&version=1.0 to the consumer 192.168.1.8 use dubbo version 2.5.3', 'datas': {}, 'status': 'fail', 'message': '内部错误', 'orderNo': 'NtSiXIBRkKAa2yVLabhY27'}
+2017 Mar 17 Fri 16:18:08 INFO ==============
+2017 Mar 17 Fri 16:20:19 INFO ==============
+2017 Mar 17 Fri 16:20:19 INFO 接口名：userResetPwd
+2017 Mar 17 Fri 16:22:39 INFO 参数：userId=a002,realname=18375693021,idcard=100001,pwdType=0
+2017 Mar 17 Fri 16:22:39 INFO 响应报文：{'code': '200', 'detailMessage': '身份证不匹配', 'datas': {}, 'status': 'fail', 'message': '身份证不匹配', 'orderNo': 'aKdiiq4F6PIcY4OuRWQzK0'}
+2017 Mar 17 Fri 16:22:39 INFO ==============
+2017 Mar 17 Fri 16:36:22 INFO ==============
+2017 Mar 17 Fri 16:36:22 INFO 接口名：userResetPwd
+2017 Mar 17 Fri 16:37:15 INFO 参数：userId=a001
+2017 Mar 17 Fri 16:37:15 INFO 响应报文：{'code': '400', 'detailMessage': 'idcard:may not be null;realname:may not be null;', 'datas': {}, 'status': 'fail', 'message': '请求参数非法', 'orderNo': 'obXQ20PqK4MxmXrubrhBuK'}
+2017 Mar 17 Fri 16:37:15 INFO ==============
+2017 Mar 17 Fri 17:11:39 INFO ==============
+2017 Mar 17 Fri 17:11:39 INFO 接口名：userResetPwd
+2017 Mar 17 Fri 17:13:01 INFO 参数：userId=a001,realname=鲍勃,idcard=100001,pwdType=0
+2017 Mar 17 Fri 17:13:01 INFO 响应报文：{'code': '200', 'datas': {}, 'status': 'fail', 'detailMessage': '姓名不匹配', 'message': '姓名不匹配', 'orderNo': 'pMHaBkI74yfMtAroFuFrRd'}
+2017 Mar 17 Fri 17:13:01 INFO ==============

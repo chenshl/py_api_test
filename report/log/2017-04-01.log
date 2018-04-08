@@ -1,0 +1,187 @@
+2017 Apr 01 Sat 10:44:02 INFO ==============
+2017 Apr 01 Sat 10:44:02 INFO 接口名：loginOut
+2017 Apr 01 Sat 10:44:13 INFO 参数：token=2f35622b5b8f5c113955100926b713a4
+2017 Apr 01 Sat 10:44:13 INFO 相应报文：(200, {'code': '10001', 'orderNo': 'NM7tL9LnOvCR0z3H1fuXwJ', 'datas': {}, 'status': 'fail', 'message': '用户未登陆', 'detailMessage': '用户未登陆'})
+2017 Apr 01 Sat 10:44:13 INFO ==============
+2017 Apr 01 Sat 10:47:09 INFO ==============
+2017 Apr 01 Sat 10:47:09 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 10:48:17 INFO 参数：userPhone=18375693021;password
+2017 Apr 01 Sat 10:48:28 INFO ==============
+2017 Apr 01 Sat 10:48:28 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 10:48:44 INFO 参数：userPhone=18375693021;password=111111
+2017 Apr 01 Sat 10:48:44 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '密码错误！', 'message': '密码错误！', 'orderNo': 'pmHz7HxR9whWuy6phO3CcH', 'datas': {}, 'code': '200'})
+2017 Apr 01 Sat 10:48:44 INFO ==============
+2017 Apr 01 Sat 10:48:53 INFO ==============
+2017 Apr 01 Sat 10:48:53 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 10:49:00 INFO 参数：userPhone=18375693021;password=123456
+2017 Apr 01 Sat 10:49:00 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '密码错误！', 'message': '密码错误！', 'orderNo': 'mSqAloY3Nxb2q4Ybfsljvr', 'datas': {}, 'code': '200'})
+2017 Apr 01 Sat 10:49:00 INFO ==============
+2017 Apr 01 Sat 11:08:20 INFO ==============
+2017 Apr 01 Sat 11:08:20 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 11:08:35 INFO 参数：userPhone=15923076029;password=111111
+2017 Apr 01 Sat 11:08:35 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '密码错误！', 'message': '密码错误！', 'orderNo': 'xSiut18EZsUM79drtPOZVs', 'datas': {}, 'code': '200'})
+2017 Apr 01 Sat 11:08:35 INFO ==============
+2017 Apr 01 Sat 11:08:43 INFO ==============
+2017 Apr 01 Sat 11:08:43 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 11:08:49 INFO 参数：userPhone=15923076029;password=123456
+2017 Apr 01 Sat 11:08:50 INFO 相应报文：(200, {'status': 'fail', 'detailMessage': '密码错误！', 'message': '密码错误！', 'orderNo': 'q5hLjfUWHJv2U4UyNej4Sw', 'datas': {}, 'code': '200'})
+2017 Apr 01 Sat 11:08:50 INFO ==============
+2017 Apr 01 Sat 11:49:24 INFO ==============
+2017 Apr 01 Sat 11:49:24 INFO 接口名：loginByPassword
+2017 Apr 01 Sat 11:49:46 INFO 参数：userPhone=18375693021;password=7a6b6ecd2709cf1a52936e4d8a5623a3
+2017 Apr 01 Sat 11:49:47 INFO 相应报文：(200, {'detailMessage': '密码错误！', 'message': '密码错误！', 'code': '200', 'status': 'fail', 'datas': {}, 'orderNo': 'ZJvHpvRuDiDClfW13R1WI0'})
+2017 Apr 01 Sat 11:49:47 INFO ==============
+2017 Apr 01 Sat 15:00:13 INFO ==============
+2017 Apr 01 Sat 15:00:13 INFO 接口名：userLoginLogInfoCommitService
+2017 Apr 01 Sat 15:31:13 INFO 参数：token=2f35622b5b8f5c113955100926b713a4;userPhone=15291984432;nickname=王彩*
+2017 Apr 01 Sat 15:31:14 INFO 相应报文：(200, {'detailMessage': '用户未登陆', 'message': '用户未登陆', 'code': '10001', 'status': 'fail', 'datas': {}, 'orderNo': 'uqDsVFQMCc1O23fWDo91gE'})
+2017 Apr 01 Sat 15:31:14 INFO ==============
+2017 Apr 01 Sat 15:40:21 INFO ==============
+2017 Apr 01 Sat 15:40:21 INFO 接口名：findUserParamByID
+2017 Apr 01 Sat 15:40:27 INFO 参数：id=1
+2017 Apr 01 Sat 15:40:27 INFO 相应报文：(200, {'detailMessage': '查询成功', 'message': '查询成功', 'code': '200', 'status': 'success', 'datas': {'paramValue': 'bike', 'id': 1, 'paramKey': 'h_01', 'name': '兴趣', 'code': 'hobby', 'count': 0, 'isUse': 0}, 'orderNo': 'gs8UPfajIjXommJOnEVmPY'})
+2017 Apr 01 Sat 15:40:27 INFO ==============
+2017 Apr 01 Sat 15:41:31 INFO ==============
+2017 Apr 01 Sat 15:41:31 INFO 接口名：findUserParamByID
+2017 Apr 01 Sat 15:41:34 INFO 参数：id=001
+2017 Apr 01 Sat 15:41:34 INFO 相应报文：(200, {'detailMessage': '查询成功', 'message': '查询成功', 'code': '200', 'status': 'success', 'datas': {'paramValue': 'bike', 'id': 1, 'paramKey': 'h_01', 'name': '兴趣', 'code': 'hobby', 'count': 0, 'isUse': 0}, 'orderNo': 'SJAFjqmIq8XYXrnUVAB4vi'})
+2017 Apr 01 Sat 15:41:34 INFO ==============
+2017 Apr 01 Sat 15:41:57 INFO ==============
+2017 Apr 01 Sat 15:41:57 INFO 接口名：modifyParam
+2017 Apr 01 Sat 15:42:00 INFO 参数：id=1
+2017 Apr 01 Sat 15:42:00 INFO 相应报文：(200, {'detailMessage': "\n### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'result_message' at row 1\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: UPDATE order_info          SET status = ? ,                                           trade_date = ? ,                                           merchant_order_no = ? ,                                           result_code = ? ,                                           result_message = ?           WHERE              serial_no = ?\n### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'result_message' at row 1\n; SQL []; Data truncation: Data too long for column 'result_message' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'result_message' at row 1", 'message': '内部错误', 'code': '500', 'status': 'fail', 'datas': {}, 'orderNo': 'Tdh9MIoyzSxevw9Ax5WlwA'})
+2017 Apr 01 Sat 15:42:00 INFO ==============
+2017 Apr 01 Sat 15:43:40 INFO ==============
+2017 Apr 01 Sat 15:43:40 INFO 接口名：queryParam
+2017 Apr 01 Sat 15:45:43 INFO 参数：code=hobby;isUse=0;start=0;pageSize=10
+2017 Apr 01 Sat 15:45:44 INFO 相应报文：(200, {'detailMessage': '查询成功', 'message': '查询成功', 'code': '200', 'status': 'success', 'datas': {'userParamInfos': [{'paramValue': 'With', 'id': 43, 'paramKey': '406', 'name': '兴趣', 'code': 'hobby', 'count': 5, 'isUse': 0}, {'isUse': 0, 'paramValue': 'HHH', 'id': 37, 'paramKey': '459', 'name': '兴趣', 'updatetime': '2017-03-12 14:02:27', 'creator': 'aa', 'count': 0, 'createtime': '2017-03-02 14:02:27', 'code': 'hobby'}, {'paramValue': 'bike', 'id': 36, 'paramKey': '84', 'name': '兴趣', 'code': 'hobby', 'count': 0, 'isUse': 0}, {'paramValue': '玩小鸡', 'id': 12, 'paramKey': '4', 'name': '兴趣', 'code': 'hobby', 'count': 0, 'isUse': 0}, {'paramValue': 'bike', 'id': 1, 'paramKey': 'h_01', 'name': '兴趣', 'code': 'hobby', 'count': 0, 'isUse': 0}], 'count': 5}, 'orderNo': 'oLPmloWhC2mnFtA4bcvoKh'})
+2017 Apr 01 Sat 15:45:44 INFO ==============
+2017 Apr 01 Sat 15:46:03 INFO ==============
+2017 Apr 01 Sat 15:46:03 INFO 接口名：queryParam
+2017 Apr 01 Sat 15:46:28 INFO 参数：code=industry;idUse=1;start=0;pageSize=10
+2017 Apr 01 Sat 15:46:29 INFO 相应报文：(200, {'detailMessage': '查询成功', 'message': '查询成功', 'code': '200', 'status': 'success', 'datas': {'userParamInfos': [{'paramValue': '老师', 'id': 42, 'paramKey': '164', 'name': '行业', 'code': 'industry', 'count': 6, 'isUse': 0}, {'paramValue': '护士', 'id': 26, 'paramKey': '99741', 'name': '行业', 'code': 'industry', 'count': 0, 'isUse': 1}, {'paramValue': '律师', 'id': 20, 'paramKey': '51201', 'name': '行业', 'code': 'industry', 'count': 0, 'isUse': 1}, {'paramValue': '护士', 'id': 19, 'paramKey': '49774', 'name': '行业', 'code': 'industry', 'count': 0, 'isUse': 1}, {'paramValue': '金融', 'id': 6, 'paramKey': '456', 'name': '行业', 'code': 'industry', 'count': 0, 'isUse': 1}, {'paramValue': '计算机', 'id': 5, 'paramKey': '123', 'name': '行业', 'code': 'industry', 'count': 0, 'isUse': 0}], 'count': 6}, 'orderNo': 'pxm9pIFS0B5u52B7BdJ1pb'})
+2017 Apr 01 Sat 15:46:29 INFO ==============
+2017 Apr 01 Sat 15:47:47 INFO ==============
+2017 Apr 01 Sat 15:47:47 INFO 接口名：showOrHideParam
+2017 Apr 01 Sat 15:48:03 INFO 参数：id=1;isUse=0
+2017 Apr 01 Sat 15:48:03 INFO 相应报文：(200, {'detailMessage': '修改null成功', 'message': '修改null成功', 'code': '200', 'status': 'success', 'datas': {}, 'orderNo': 'cEOWEBIGSeYZK5Ao4E5GSs'})
+2017 Apr 01 Sat 15:48:03 INFO ==============
+2017 Apr 01 Sat 15:48:18 INFO ==============
+2017 Apr 01 Sat 15:48:18 INFO 接口名：showOrHideParam
+2017 Apr 01 Sat 15:48:25 INFO 参数：id=1;isUse=1
+2017 Apr 01 Sat 15:48:25 INFO 相应报文：(200, {'detailMessage': '修改null成功', 'message': '修改null成功', 'code': '200', 'status': 'success', 'datas': {}, 'orderNo': 'BxoaVMaSdNm74uar1Pzq8W'})
+2017 Apr 01 Sat 15:48:25 INFO ==============
+2017 Apr 01 Sat 15:48:34 INFO ==============
+2017 Apr 01 Sat 15:48:34 INFO 接口名：showOrHideParam
+2017 Apr 01 Sat 15:48:41 INFO 参数：id=1;isUse=0
+2017 Apr 01 Sat 15:48:42 INFO 相应报文：(200, {'detailMessage': '修改null成功', 'message': '修改null成功', 'code': '200', 'status': 'success', 'datas': {}, 'orderNo': 'OBRR2juLOEhvP5OC32X3Sk'})
+2017 Apr 01 Sat 15:48:42 INFO ==============
+2017 Apr 01 Sat 15:55:23 INFO ==============
+2017 Apr 01 Sat 15:55:23 INFO 接口名：getVipRank
+2017 Apr 01 Sat 15:55:36 INFO 参数：start=0;pageSize=10
+2017 Apr 01 Sat 15:55:36 INFO 相应报文：(200, {'detailMessage': 'endTime:may not be null;startTime:may not be null;', 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'datas': {}, 'orderNo': 'SsYikZNyrn5OZlYAAQVDYG'})
+2017 Apr 01 Sat 15:55:36 INFO ==============
+2017 Apr 01 Sat 15:55:46 INFO ==============
+2017 Apr 01 Sat 15:55:46 INFO 接口名：getVipRank
+2017 Apr 01 Sat 15:56:10 INFO 参数：start=0;pageSize=10;startTime=20170301;endTime=20170330
+2017 Apr 01 Sat 15:56:11 INFO 相应报文：(200, {'detailMessage': '获取直推vip榜单成功', 'message': '获取直推vip榜单成功', 'code': '200', 'status': 'success', 'datas': {'userVipLogInfoList': [{'userId': 'a008', 'vipCount': 1, 'vipTime': '2017-03-04 14:31:23', 'recommendId': 'a007', 'userInfoInfo': {'userId': 'a008', 'userType': 1, 'recommendId': 'a007', 'realname': 'MEI', 'userPhone': '12456879581', 'idcard': ''}}]}, 'orderNo': 'roUrLw9clGAXoT4EvjFViq'})
+2017 Apr 01 Sat 15:56:11 INFO ==============
+2017 Apr 01 Sat 15:57:46 INFO ==============
+2017 Apr 01 Sat 15:57:46 INFO 接口名：registerTypeAndNum
+2017 Apr 01 Sat 15:58:34 INFO 参数：startDate=2017-03-06 00:00:00;endDate=017-03-16 00:59:00
+2017 Apr 01 Sat 15:58:34 INFO 相应报文：(200, {'detailMessage': 'endDate:时间格式不对;', 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'datas': {}, 'orderNo': 'bmmJGYxKBghRauyQs2eVRP'})
+2017 Apr 01 Sat 15:58:34 INFO ==============
+2017 Apr 01 Sat 15:58:46 INFO ==============
+2017 Apr 01 Sat 15:58:46 INFO 接口名：registerTypeAndNum
+2017 Apr 01 Sat 15:58:54 INFO 参数：startDate=2017-03-06 00:00:00;endDate=2017-03-16 00:59:00
+2017 Apr 01 Sat 15:58:54 INFO 相应报文：(200, {'detailMessage': '查询注册渠道对应人数成功', 'message': '查询注册渠道对应人数成功', 'code': '200', 'status': 'success', 'datas': {'nullType': 8, 'num': 21, 'app': 12, 'poplarize': 1}, 'orderNo': 'PJJwb1ItIrYiEIpY2F61P3'})
+2017 Apr 01 Sat 15:58:54 INFO ==============
+2017 Apr 01 Sat 15:59:06 INFO ==============
+2017 Apr 01 Sat 15:59:06 INFO 接口名：registerTypeAndNum
+2017 Apr 01 Sat 15:59:31 INFO 参数：startDate=2017-03-06 00:00:00;endDate=2017-03-16 00:60:00
+2017 Apr 01 Sat 15:59:31 INFO 相应报文：(200, {'detailMessage': 'endDate:时间格式不对;', 'message': '请求参数非法', 'code': '400', 'status': 'fail', 'datas': {}, 'orderNo': 'uWPyA77oKDL0tVpsLpl9s2'})
+2017 Apr 01 Sat 15:59:31 INFO ==============
+2017 Apr 01 Sat 16:08:07 INFO ==============
+2017 Apr 01 Sat 16:08:07 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:08:07 INFO 参数：
+2017 Apr 01 Sat 16:08:15 INFO ==============
+2017 Apr 01 Sat 16:08:15 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:08:15 INFO 参数：
+2017 Apr 01 Sat 16:08:20 INFO ==============
+2017 Apr 01 Sat 16:08:20 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:08:20 INFO 参数：
+2017 Apr 01 Sat 16:08:39 INFO ==============
+2017 Apr 01 Sat 16:08:39 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:13:44 INFO 参数：location=12.34;cityName=重庆
+2017 Apr 01 Sat 16:13:44 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'fMRGIVLjdZM2eOO3VVODRS', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:13:44 INFO ==============
+2017 Apr 01 Sat 16:14:00 INFO ==============
+2017 Apr 01 Sat 16:14:00 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:14:48 INFO 参数：location=11.134;cityName=重庆市;countryCode=cq
+2017 Apr 01 Sat 16:14:48 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': '3NF44T7OLInknNif2uVPQR', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:14:48 INFO ==============
+2017 Apr 01 Sat 16:15:38 INFO ==============
+2017 Apr 01 Sat 16:15:38 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:16:08 INFO 参数：userId=20170321001000000037;location=12.34;cityName=重庆
+2017 Apr 01 Sat 16:16:08 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'Zk0j35XvG5D4yAJolvEjBn', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:16:08 INFO ==============
+2017 Apr 01 Sat 16:18:21 INFO ==============
+2017 Apr 01 Sat 16:18:21 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:18:36 INFO 参数：userId=20170321001000000037;location=12.34,56.78;cityName=重庆
+2017 Apr 01 Sat 16:18:36 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': '2DorTpvPk6s3nhCKw1izTC', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:18:36 INFO ==============
+2017 Apr 01 Sat 16:19:31 INFO ==============
+2017 Apr 01 Sat 16:19:31 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:20:10 INFO 参数：userId=20170321001000000037;location=12.34,56.78;cityCode=cq;cityName=重庆;countryCode=yz
+2017 Apr 01 Sat 16:20:10 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'S72ip3ZYgbumt8q54qreyB', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:20:10 INFO ==============
+2017 Apr 01 Sat 16:20:53 INFO ==============
+2017 Apr 01 Sat 16:20:53 INFO 接口名：queryUserLoginLogsService
+2017 Apr 01 Sat 16:21:26 INFO 参数：userId=a001;start=0;pageSize=10
+2017 Apr 01 Sat 16:21:27 INFO 相应报文：(200, {'detailMessage': '登陆日志查询完成！', 'orderNo': 'BXulesOPFsjyKlWdSDzOwI', 'datas': {'list': [{'createtime': '2017-03-21 11:59:02', 'userId': '20170321001000000037', 'userPhone': '18875026905', 'loginTime': '2017-03-21 11:59:02'}, {'createtime': '2017-03-21 11:33:18', 'userId': '20170321001000000037', 'userPhone': '18875026905', 'loginTime': '2017-03-21 11:33:18'}, {'createtime': '2017-03-16 16:30:51', 'userId': 'f81f7ef5bcd04b60b16752616032074a', 'userPhone': '18875026905', 'loginTime': '2017-03-16 16:30:51'}, {'createtime': '2017-03-13 11:09:59', 'userId': 'abcdefghijklmnopk1026873378', 'systemVer': 'ios9.2.3', 'loginType': '验证码', 'loginTime': '2017-03-13 11:09:59'}, {'loginTime': '2017-03-13 10:51:23', 'systemVer': 'ios9.2.3', 'userId': 'abcdefghijklmnopk301103867', 'createtime': '2017-03-13 10:51:23', 'loginType': '验证码', 'userPhone': '13112311231'}, {'loginTime': '2017-03-13 10:12:37', 'systemVer': 'ios9.2.3', 'userId': 'abcdefghijklmnopk1889746401', 'createtime': '2017-03-13 10:12:37', 'loginType': '验证码', 'userPhone': '13112311231'}, {'createtime': '2017-03-08 09:46:09', 'userId': 'test0000001', 'loginTime': '2017-03-08 09:46:09'}, {'createtime': '2017-03-06 14:55:11', 'userId': 'abcdefghijklmnopk-1841260834', 'systemVer': 'ios9.2.3', 'loginType': '验证码', 'loginTime': '2017-03-06 14:55:11'}, {'createtime': '2017-03-06 11:06:26', 'userId': 'abcdefghijklmnopk-1960765670', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-06 11:06:26'}, {'createtime': '2017-03-03 20:07:15', 'userId': 'abcdefghijklmnopk100285487', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-03 20:07:15'}]}, 'code': '200', 'status': 'success', 'message': '登陆日志查询完成！'})
+2017 Apr 01 Sat 16:21:27 INFO ==============
+2017 Apr 01 Sat 16:22:40 INFO ==============
+2017 Apr 01 Sat 16:22:40 INFO 接口名：queryUserLoginLogsService
+2017 Apr 01 Sat 16:22:49 INFO 参数：userId=a001;start=1;pageSize=12
+2017 Apr 01 Sat 16:22:49 INFO 相应报文：(200, {'detailMessage': '登陆日志查询完成！', 'orderNo': 'EYedjfOWNKaGX7VcvWHRcB', 'datas': {'list': [{'createtime': '2017-03-21 11:33:18', 'userId': '20170321001000000037', 'userPhone': '18875026905', 'loginTime': '2017-03-21 11:33:18'}, {'createtime': '2017-03-16 16:30:51', 'userId': 'f81f7ef5bcd04b60b16752616032074a', 'userPhone': '18875026905', 'loginTime': '2017-03-16 16:30:51'}, {'createtime': '2017-03-13 11:09:59', 'userId': 'abcdefghijklmnopk1026873378', 'systemVer': 'ios9.2.3', 'loginType': '验证码', 'loginTime': '2017-03-13 11:09:59'}, {'loginTime': '2017-03-13 10:51:23', 'systemVer': 'ios9.2.3', 'userId': 'abcdefghijklmnopk301103867', 'createtime': '2017-03-13 10:51:23', 'loginType': '验证码', 'userPhone': '13112311231'}, {'loginTime': '2017-03-13 10:12:37', 'systemVer': 'ios9.2.3', 'userId': 'abcdefghijklmnopk1889746401', 'createtime': '2017-03-13 10:12:37', 'loginType': '验证码', 'userPhone': '13112311231'}, {'createtime': '2017-03-08 09:46:09', 'userId': 'test0000001', 'loginTime': '2017-03-08 09:46:09'}, {'createtime': '2017-03-06 14:55:11', 'userId': 'abcdefghijklmnopk-1841260834', 'systemVer': 'ios9.2.3', 'loginType': '验证码', 'loginTime': '2017-03-06 14:55:11'}, {'createtime': '2017-03-06 11:06:26', 'userId': 'abcdefghijklmnopk-1960765670', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-06 11:06:26'}, {'createtime': '2017-03-03 20:07:15', 'userId': 'abcdefghijklmnopk100285487', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-03 20:07:15'}, {'createtime': '2017-03-03 20:06:23', 'userId': 'abcdefghijklmnopk0.4138263508987543', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-03 20:06:23'}, {'createtime': '2017-03-03 20:05:19', 'userId': 'abcdefghijklmnopk6.0', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-03 20:05:19'}, {'createtime': '2017-03-03 20:03:40', 'userId': 'abcdefghijklmnopk7.908331945777416', 'systemVer': 'ios9.0.2', 'loginType': '验证码', 'loginTime': '2017-03-03 20:03:40'}]}, 'code': '200', 'status': 'success', 'message': '登陆日志查询完成！'})
+2017 Apr 01 Sat 16:22:49 INFO ==============
+2017 Apr 01 Sat 16:30:36 INFO ==============
+2017 Apr 01 Sat 16:30:36 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:31:13 INFO 参数：userId=a001;location=12,12
+2017 Apr 01 Sat 16:31:13 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': '4MvKkgqP2BL56K97KDexpF', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:31:13 INFO ==============
+2017 Apr 01 Sat 16:32:02 INFO ==============
+2017 Apr 01 Sat 16:32:02 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:32:52 INFO 参数：userId=3344;location=11,22;cityCode=cq;cityName=重庆;countryCode=yb;=渝北
+2017 Apr 01 Sat 16:32:52 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'WFBpwvVAivyLnl8IqPQXyq', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:32:52 INFO ==============
+2017 Apr 01 Sat 16:33:01 INFO ==============
+2017 Apr 01 Sat 16:33:01 INFO 接口名：saveUserLocate
+2017 Apr 01 Sat 16:33:17 INFO 参数：userId=3344;location=1.1,2.2;cityCode=cq;cityName=重庆;countryCode=yb
+2017 Apr 01 Sat 16:33:17 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'lShwUrO6HkQtdyfMeCrHQ5', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:33:17 INFO ==============
+2017 Apr 01 Sat 16:33:44 INFO ==============
+2017 Apr 01 Sat 16:33:44 INFO 接口名：userInfoServiceModifyUserIdentity
+2017 Apr 01 Sat 16:37:19 INFO 参数：userId=a001;identity=哇哈;level=1
+2017 Apr 01 Sat 16:37:19 INFO 相应报文：(200, {'detailMessage': 'token:may not be null;', 'orderNo': 'UMwiSsbH4vN7BEAjwYH4hR', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:37:19 INFO ==============
+2017 Apr 01 Sat 16:38:25 INFO ==============
+2017 Apr 01 Sat 16:38:25 INFO 接口名：userInfoServiceModifyUserIdentity
+2017 Apr 01 Sat 16:38:37 INFO 参数：userId=a001;identity=哇哈;identityId=1
+2017 Apr 01 Sat 16:38:37 INFO 相应报文：(200, {'detailMessage': 'level:may not be null;token:may not be null;', 'orderNo': 'C0qVdiYNE76XBa5MmoRJlc', 'datas': {}, 'code': '400', 'status': 'fail', 'message': '请求参数非法'})
+2017 Apr 01 Sat 16:38:37 INFO ==============
+2017 Apr 01 Sat 16:39:27 INFO ==============
+2017 Apr 01 Sat 16:39:27 INFO 接口名：userInfoServiceFindUserInfoByUserId
+2017 Apr 01 Sat 16:39:33 INFO 参数：userId=a001
+2017 Apr 01 Sat 16:39:34 INFO 相应报文：(200, {'detailMessage': '查询成功', 'orderNo': 'QrIPAd9T6E9fO8DQljGrv1', 'datas': {'realname': '张三', 'birthday': '2017-03-29 00:00:00', 'authenticationState': 0, 'registerTime': '2017-03-06 11:13:18', 'exceptionState': 1, 'userType': 1, 'updatetime': '2017-03-29 11:02:05', 'idcard': '100001', 'recommendId': 'a004', 'nickname': '4154', 'userId': 'a001', 'userPhone': '18375693021', 'frozenState': 1, 'sex': 1}, 'code': '200', 'status': 'success', 'message': '查询成功'})
+2017 Apr 01 Sat 16:39:34 INFO ==============
+2017 Apr 01 Sat 16:39:52 INFO ==============
+2017 Apr 01 Sat 16:39:52 INFO 接口名：userInfoServiceFindUserListByPage
+2017 Apr 01 Sat 16:40:38 INFO 参数：userId=a001;nickName=4154;userPhone=18375693021;start=1;pageSize=10
+2017 Apr 01 Sat 16:40:38 INFO 相应报文：(200, {'detailMessage': '查询成功', 'orderNo': 'DfiAouYKAHp0VnfTHl7JT9', 'datas': {'userInfoInfos': []}, 'code': '200', 'status': 'success', 'message': '查询成功'})
+2017 Apr 01 Sat 16:40:38 INFO ==============
+2017 Apr 01 Sat 16:43:28 INFO ==============
+2017 Apr 01 Sat 16:43:28 INFO 接口名：loginAndRegist
+2017 Apr 01 Sat 16:46:15 INFO 参数：userPhone=12345678909;msgCode=666666;registerType=cl
+2017 Apr 01 Sat 16:46:15 INFO 相应报文：(200, {'detailMessage': '参数registerType=cl,格式错误,需要的:Integer', 'orderNo': 'Zxn0ITOP8wmicMpIyMrl7u', 'datas': {}, 'code': '408', 'status': 'fail', 'message': '参数格式错误'})
+2017 Apr 01 Sat 16:46:15 INFO ==============

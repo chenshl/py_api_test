@@ -1,0 +1,11 @@
+2017 Mar 16 Thu 17:23:37 INFO =============
+2017 Mar 16 Thu 17:23:37 INFO 搜寻测试脚本结束
+2017 Mar 16 Thu 17:23:37 INFO 开始测试...
+2017 Mar 16 Thu 17:23:37 DEBUG Starting new HTTP connection (1): 192.168.1.8
+2017 Mar 16 Thu 17:23:37 DEBUG http://192.168.1.8:9999 "POST /m/php/shop/forgetPayPasswordPhp HTTP/1.1" 200 None
+2017 Mar 16 Thu 17:23:37 DEBUG Starting new HTTP connection (1): 192.168.1.8
+2017 Mar 16 Thu 17:23:37 DEBUG http://192.168.1.8:9999 "POST /m/php/shop/forgetPayPasswordPhp HTTP/1.1" 200 None
+2017 Mar 16 Thu 17:23:37 DEBUG Starting new HTTP connection (1): 192.168.1.207
+2017 Mar 16 Thu 17:23:38 INFO 测试结束...
+2017 Mar 16 Thu 17:23:38 INFO 保存html报告成功
+2017 Mar 16 Thu 17:23:38 INFO =============
