@@ -7,7 +7,7 @@ import logging
 import time,sys
 import os
 PATH = os.path.abspath(os.path.join(os.path.dirname('.'),os.path.pardir))  #返回当前执行文件的上一级目录，常用写法
-logPATH = str(PATH) + '\\report\\log\\'  #拼接日志目录
+logPATH = str(PATH) + '\\py_api_test\\report\\log\\'  #拼接日志目录
 date = time.strftime('%Y-%m-%d')  #以字符串形式返回格式化的当前时间time.strftime('%Y-%m-%d %H:%M:%S')
 fielname = date+'.log'  #记录日志文件名
 abspath = logPATH + fielname  #拼接出完整的路径和日志文件名
