@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/py_api_test.iml" filepath="$PROJECT_DIR$/.idea/py_api_test.iml" />
-      <module fileurl="file://D:\pyWorkspace\py_api_test\.idea\py_request_test.iml" filepath="D:\pyWorkspace\py_api_test\.idea\py_request_test.iml" />
     </modules>
   </component>
 </project>

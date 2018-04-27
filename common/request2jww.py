@@ -33,6 +33,16 @@ class request2jww(object):
         return sorted(self.apiParam.items())  #参数按照key值排序
 
 if __name__ == '__main__':
-    apiname = '/s/shop/pay/wobi/qry'
-    apiParam = {'userId':'000065bc-bcb2-11e5-b300-d89d672713e0'}
-    request2jww(apiName=apiname,apiParam=apiParam).send()
+    # apiname = '/s/shop/pay/wobi/qry'
+    # apiParam = {'userId':'000065bc-bcb2-11e5-b300-d89d672713e0'}
+    # request2jww(apiName=apiname,apiParam=apiParam).send()
+
+    # apiname = "/s/web/login"
+    # apiParam = {"mobile":"18716200002",
+    #             "loginpwd":"111111",
+    #             "appName":"ohmyjvv_logintokenCq"}
+
+    apiname = "/m/getUserInfoByToken"
+    apiParam = {"token": "d145131e2bddd4817b297cb5329e35bc",
+                "appName": "ohmyjvv_logintokenCq"}
+    request2jww(apiName=apiname, apiParam=apiParam).send()
